@@ -89,3 +89,27 @@
     height: 100vh;
     text-align: center;
 }
+
+.grid-one-content{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.grid-descripion{
+    padding-bottom: 5rem;
+}
+
+.grid-main-heading{
+    margin-bottom: 1rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: var(--gap);
+}
+
+.gred h3{
+    font-size: 3rem;
+}
